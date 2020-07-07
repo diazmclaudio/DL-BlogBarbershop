@@ -9963,7 +9963,8 @@ p {
 }
 .button:focus {
   background-color: #6c6e70;
-  border: 5px solid #d1d1d1;
+  border: 3px solid #d1d1d1;
+  outline: none;
 }
 
 .bg-eerie-black {
