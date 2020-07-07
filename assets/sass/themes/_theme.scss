@@ -1,0 +1,13 @@
+// background NAV y color de texto menù
+.bg-eerie-black {
+    background-color: $eerie-black;
+    border-bottom: 1px solid $nickel;
+
+    a {
+        color: $white;
+        &:hover {
+            color: $ruddy-pink;
+        }
+    }
+}
+
