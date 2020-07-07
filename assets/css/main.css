@@ -9951,6 +9951,21 @@ p {
   left: 50%;
 }
 
+.button {
+  color: #ffffff;
+  background-color: #6c6e70;
+  padding: 15px;
+  border: 0px;
+  border-radius: 25px;
+}
+.button:hover {
+  background-color: #d1d1d1;
+}
+.button:focus {
+  background-color: #6c6e70;
+  border: 5px solid #d1d1d1;
+}
+
 .bg-eerie-black {
   background-color: #121619;
   border-bottom: 1px solid #6c6e70;
