@@ -10068,12 +10068,11 @@ p {
 }
 
 .page-link {
-  color: #6c6e70;
+  color: #121619;
 }
-
-.page-item.active .page-link {
-  background-color: #6c6e70;
-  border-color: #6c6e70;
+.page-link:hover {
+  background-color: #ffffff;
+  color: #6c6e70;
 }
 
 .page-item:first-child .page-link {
@@ -10087,6 +10086,18 @@ p {
   border-bottom-right-radius: 1rem;
 }
 
+@media screen and (max-width: 576px) {
+  .page-item.active .page-link {
+    background-color: #121619;
+    border-color: #121619;
+  }
+}
+@media screen and (min-width: 768px) {
+  .page-item.active .page-link {
+    background-color: #6c6e70;
+    border-color: #6c6e70;
+  }
+}
 .bg-eerie-black {
   background-color: #121619;
   border-bottom: 1px solid #6c6e70;
