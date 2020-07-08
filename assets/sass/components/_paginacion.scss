@@ -3,3 +3,22 @@
      background-color: $light-gray;
 
 }
+.page-link{
+     color: $nickel;
+}
+
+.page-item.active .page-link {
+     background-color: $nickel;
+     border-color: $nickel;
+}
+
+.page-item:first-child .page-link {
+     margin-left: 0;
+     border-top-left-radius: 1rem;
+     border-bottom-left-radius: 1rem;
+ }
+
+ .page-item:last-child .page-link {
+     border-top-right-radius: 1rem;
+     border-bottom-right-radius: 1rem;
+ }
