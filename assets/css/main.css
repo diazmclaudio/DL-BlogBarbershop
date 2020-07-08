@@ -9967,7 +9967,7 @@ p {
 }
 
 .naomi {
-  border: 1px solid nickel;
+  border: 1px solid #d1d1d1;
 }
 
 .naomi__img {
@@ -9976,6 +9976,12 @@ p {
 
 .footer {
   background-color: #121619;
+  height: 206px;
+}
+
+.footer__logo {
+  width: 200px;
+  text-align: center;
 }
 
 .button {
