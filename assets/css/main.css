@@ -9966,7 +9966,7 @@ p {
   left: 60%;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 576px) {
   .main__container {
     width: 100vw;
     margin-left: 0;
@@ -9982,7 +9982,7 @@ p {
     padding-top: 70px;
   }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   .main__container {
     width: 60vw;
     margin-left: 0;
@@ -9995,7 +9995,7 @@ p {
   }
 
   .main__arrow {
-    padding-top: 150px;
+    padding-top: 200px;
   }
 }
 .naomi {
@@ -10006,6 +10006,24 @@ p {
   border-radius: 50%;
 }
 
+@media screen and (max-width: 576px) {
+  .naomi__section {
+    text-align: center;
+  }
+
+  .naomi__img {
+    height: 90%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .naomi__section {
+    text-align: left;
+  }
+
+  .naomi__img {
+    height: 100%;
+  }
+}
 .footer {
   background-color: #121619;
   height: 206px;

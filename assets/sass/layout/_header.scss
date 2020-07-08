@@ -17,7 +17,7 @@
 }
 
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 576px) {
      
      .main__container{
           width: 100vw;
@@ -34,7 +34,7 @@
      }
    }
 
-   @media screen and (min-width: 600px) {
+   @media screen and (min-width: 768px) {
      .main__container{
           width: 60vw;
           margin-left: 0;
@@ -47,6 +47,6 @@
      }
     
      .main__arrow{
-          padding-top: 150px;
+          padding-top: 200px;
      }
    }

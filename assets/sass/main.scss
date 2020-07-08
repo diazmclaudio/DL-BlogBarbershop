@@ -1,7 +1,4 @@
 @import 'abstracts/variables';
-@import 'abstracts/functions';
-@import 'abstracts/mixins';
-@import 'abstracts/placeholders';
 
 @import 'vendors/bootstrap-4.5.0/bootstrap.scss';
 
@@ -9,20 +6,14 @@
 @import 'base/typography';
 
 @import 'layout/navigation';
-@import 'layout/grid';
 @import 'layout/header';
 @import 'layout/naomi';
 @import 'layout/footer';
-@import 'layout/sidebar';
-@import 'layout/forms';
 
 @import 'components/buttons';
 @import 'components/paginacion';
-@import 'components/cover';
-@import 'components/dropdown';
 
 @import 'pages/home';
 @import 'pages/contact';
 
 @import 'themes/theme';
-@import 'themes/admin';

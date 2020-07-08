@@ -5,3 +5,22 @@
 .naomi__img{
      border-radius: 50%;
 }
+
+@media screen and (max-width: 576px) {
+     .naomi__section{
+          text-align: center;
+     }
+     .naomi__img{
+          height: 90%;
+     }
+     
+   }
+
+   @media screen and (min-width: 768px) {
+     .naomi__section{
+          text-align: left;
+     }
+     .naomi__img{
+          height: 100%;
+     }
+   }
