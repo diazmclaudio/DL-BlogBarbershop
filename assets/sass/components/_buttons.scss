@@ -1,4 +1,4 @@
-.button{
+.button__btn{
      color: $white;
      background-color: $nickel;
      padding: 15px;
@@ -10,7 +10,9 @@
      }
      &:focus{
           background-color: $nickel;
+          padding:12px;
           border: 3px solid $light-gray;
           outline: none;
      }
 }
+
