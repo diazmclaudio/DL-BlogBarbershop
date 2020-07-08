@@ -16,3 +16,14 @@
      }
 }
 
+@media screen and (min-width: 400px) {
+     .button{
+          text-align: center;
+     }
+}
+
+@media screen and (min-width: 600px) {
+     .button{
+          text-align: left;
+     }
+}
