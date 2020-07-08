@@ -9922,6 +9922,21 @@ h1 {
   font-size: 70px;
 }
 
+h2 {
+  color: #121619;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 30px;
+}
+
+h3 {
+  color: #d76c69;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
 p {
   color: #222323;
   font-family: "Roboto", sans-serif;
@@ -9951,10 +9966,23 @@ p {
   left: 50%;
 }
 
+.naomi {
+  border: 1px solid nickel;
+}
+
+.naomi__img {
+  border-radius: 50%;
+}
+
+.footer {
+  background-color: #121619;
+}
+
 .button {
   color: #ffffff;
   background-color: #6c6e70;
   padding: 15px;
+  margin-top: 40px;
   border: 0px;
   border-radius: 25px;
 }
@@ -9965,6 +9993,16 @@ p {
   background-color: #6c6e70;
   border: 3px solid #d1d1d1;
   outline: none;
+}
+
+.paginacion {
+  height: 134px;
+  background-color: #d1d1d1;
+}
+
+.paginacion__rounded {
+  border-radius: 25%;
+  color: #6c6e70;
 }
 
 .bg-eerie-black {
